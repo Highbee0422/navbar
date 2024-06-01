@@ -1,0 +1,78 @@
+body {
+  border: 0;
+  margin: 0;
+}
+
+.top-container {
+  background: url("https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.top-container h1 {
+  color: white;
+  font-size: 50px;
+  font-family: monospace;
+}
+
+.text {
+  margin: 40px 3%;
+  font-family: sans-serif;
+}
+
+.nav-bar {
+  display: flex;
+  position: fixed;
+  background-color: white;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
+}
+
+.nav-bar img {
+  width: 30em;
+  height: 100px;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  margin: 0 25px;
+  color: black;
+  font-family: cursive;
+  padding: 10px;
+  border-radius: 10px;
+  background: transparent;
+}
+
+.nav-bar ul li a:hover {
+  color: red;
+}
+
+.menu .home {
+  background-color: lightsteelblue;
+  border-radius: 1em/9em;
+  padding: 2px;
+}
+
+.nav-bar.active {
+  background-color: burlywood;
+}
+
+.nav-bar.active ul li a {
+  color: white;
+}
+
+.nav-bar.active ul li a:hover {
+  color: red;
+}
